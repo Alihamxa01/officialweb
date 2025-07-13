@@ -317,22 +317,6 @@ export default function Services() {
                         ))}
                       </div>
                     </div>
-                    <div>
-                      <h4 className="font-semibold mb-3 text-foreground">
-                        Technologies:
-                      </h4>
-                      <div className="flex flex-wrap gap-2">
-                        {service.technologies.map((tech, idx) => (
-                          <Badge
-                            key={idx}
-                            variant="secondary"
-                            className="text-xs"
-                          >
-                            {tech}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
                   </div>
                 </CardContent>
               </Card>
