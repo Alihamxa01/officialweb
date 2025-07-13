@@ -200,10 +200,7 @@ export default function About() {
                 reeCoder was born from a simple idea: to make intelligent, scalable technology accessible to everyone. What started as a small team of passionate developers has grown into a full-stack AI-driven service provider helping businesses automate, innovate, and grow. With a focus on simplicity, performance, and real impact—we’re redefining what smart web solutions can be
               </p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Over the past decade, we've helped hundreds of companies
-                transform their ideas into powerful digital solutions. Our
-                journey has been marked by continuous learning, innovation, and
-                an unwavering commitment to excellence.
+                reeCoder was founded by Ali Hamza, with his best friend Najaf Asli joining as the lead developer. Together, they combine vision and code to build powerful AI-driven solutions for the modern web.
               </p>
               
             </div>
