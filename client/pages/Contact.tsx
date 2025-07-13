@@ -49,11 +49,6 @@ export default function Contact() {
 
   const contactInfo = [
     {
-      icon: MapPin,
-      title: "Office Address",
-      details: ["123 Tech Street", "San Francisco, CA 94105", "United States"],
-    },
-    {
       icon: Phone,
       title: "Phone Number",
       details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
@@ -349,20 +344,6 @@ export default function Contact() {
                   </Card>
                 ))}
               </div>
-
-              {/* Map placeholder */}
-              <Card className="border-0 bg-muted/30">
-                <CardContent className="p-0">
-                  <div className="h-64 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg flex items-center justify-center">
-                    <div className="text-center">
-                      <MapPin className="h-12 w-12 text-primary mx-auto mb-2" />
-                      <p className="text-muted-foreground">
-                        Interactive Map Coming Soon
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>
