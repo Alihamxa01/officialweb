@@ -208,24 +208,7 @@ export default function About() {
                 journey has been marked by continuous learning, innovation, and
                 an unwavering commitment to excellence.
               </p>
-              <div className="grid grid-cols-2 gap-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">
-                    10+
-                  </div>
-                  <div className="text-muted-foreground">
-                    Years of Excellence
-                  </div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">
-                    25+
-                  </div>
-                  <div className="text-muted-foreground">
-                    Expert Team Members
-                  </div>
-                </div>
-              </div>
+              
             </div>
             <div className="relative">
               <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl p-8 backdrop-blur-sm">
