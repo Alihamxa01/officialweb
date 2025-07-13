@@ -329,7 +329,7 @@ export default function About() {
                         <Badge
                           key={idx}
                           variant="outline"
-                          className="text-xs font-medium bg-accent/10 text-accent border border-accent/30 hover:bg-accent hover:text-accent-foreground transition-colors"
+                          className="text-xs font-medium bg-accent/20 text-accent border border-accent/60 hover:bg-accent hover:text-accent-foreground transition-colors"
                         >
                           {skill}
                         </Badge>
