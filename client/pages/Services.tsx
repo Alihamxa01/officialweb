@@ -69,18 +69,7 @@ export default function Services() {
         "Microservices",
       ],
     },
-    {
-      icon: CloudIcon,
-      title: "Cloud Solutions",
-      description:
-        "Scalable cloud infrastructure and deployment solutions for modern applications.",
-      features: [
-        "AWS/Azure/GCP",
-        "Container Orchestration",
-        "CI/CD Pipelines",
-        "Auto-scaling",
-      ],
-    },
+
     {
       icon: Paintbrush,
       title: "UI/UX Design",
