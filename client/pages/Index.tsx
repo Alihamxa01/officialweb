@@ -66,30 +66,6 @@ export default function Index() {
     "GraphQL",
   ];
 
-  const testimonials = [
-    {
-      name: "Sarah Johnson",
-      company: "TechStart Inc.",
-      quote:
-        "reeCoder transformed our outdated system into a modern, efficient platform. Exceptional work!",
-      rating: 5,
-    },
-    {
-      name: "Michael Chen",
-      company: "Digital Solutions",
-      quote:
-        "Outstanding development team with incredible attention to detail. Highly recommended!",
-      rating: 5,
-    },
-    {
-      name: "Emily Davis",
-      company: "InnovateCorp",
-      quote:
-        "Professional, reliable, and delivered exactly what we needed on time and within budget.",
-      rating: 5,
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
@@ -389,57 +365,6 @@ export default function Index() {
                 </CardDescription>
               </CardContent>
             </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-20 bg-muted/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              What Our Clients Say
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Don't just take our word for it. Here's what our satisfied clients
-              have to say.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card
-                key={index}
-                className="border-0 bg-background/50 backdrop-blur-sm hover:shadow-lg transition-all duration-300"
-              >
-                <CardHeader>
-                  <div className="flex items-center space-x-1 mb-4">
-                    {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star
-                        key={i}
-                        className="h-5 w-5 fill-yellow-400 text-yellow-400"
-                      />
-                    ))}
-                  </div>
-                  <CardDescription className="text-base leading-relaxed italic">
-                    "{testimonial.quote}"
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center">
-                      <Users className="h-6 w-6 text-white" />
-                    </div>
-                    <div>
-                      <p className="font-semibold">{testimonial.name}</p>
-                      <p className="text-muted-foreground text-sm">
-                        {testimonial.company}
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
           </div>
         </div>
       </section>
