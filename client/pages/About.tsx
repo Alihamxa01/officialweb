@@ -197,11 +197,7 @@ export default function About() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Founded in 2014, reeCoder started as a small team of passionate
-                developers who believed that technology could make a real
-                difference in people's lives. What began as a startup in a
-                garage has grown into a trusted software development partner for
-                businesses worldwide.
+                reeCoder was born from a simple idea: to make intelligent, scalable technology accessible to everyone. What started as a small team of passionate developers has grown into a full-stack AI-driven service provider helping businesses automate, innovate, and grow. With a focus on simplicity, performance, and real impact—we’re redefining what smart web solutions can be
               </p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
                 Over the past decade, we've helped hundreds of companies
