@@ -21,7 +21,7 @@ import {
   X,
   CheckCircle,
   Globe,
-  Smartphone,
+  Bot,
   Database,
 } from "lucide-react";
 import { useState } from "react";
