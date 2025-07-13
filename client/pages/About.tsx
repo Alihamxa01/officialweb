@@ -51,20 +51,21 @@ export default function About() {
 
   const team = [
     {
-      name: "John Smith",
-      role: "CEO & Lead Developer",
-      experience: "12+ years",
+      name: "Ali Hamza",
+      role: "Founder &  Chief Operator",
+      experience: "7+ years",
       specialties: [
-        "Full-Stack Development",
+        "Front-end Developer",
         "System Architecture",
         "Team Leadership",
+        " Marketing Manager", 
       ],
     },
     {
-      name: "Sarah Johnson",
-      role: "CTO & Frontend Specialist",
+      name: "Najaf Ali",
+      role: "CEO &  AI Agent Developer:",
       experience: "10+ years",
-      specialties: ["React/Next.js", "UI/UX Design", "Mobile Development"],
+      specialties: ["AI developer", "Python expert", "OpenAI Agent SDK Developer"],
     },
   ];
 
