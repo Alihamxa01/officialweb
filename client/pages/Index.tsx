@@ -356,18 +356,18 @@ export default function Index() {
 
             <Card className="border-0 bg-gradient-to-br from-green-50 to-green-100 dark:from-green-950/20 dark:to-green-900/20">
               <CardHeader className="text-center">
-                <Smartphone className="h-12 w-12 text-green-600 mx-auto mb-4" />
-                <CardTitle>Mobile Development</CardTitle>
+                <Bot className="h-12 w-12 text-green-600 mx-auto mb-4" />
+                <CardTitle>AI Agents</CardTitle>
               </CardHeader>
               <CardContent>
                 <img
-                  src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                  alt="Mobile Development"
+                  src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                  alt="AI Robotics"
                   className="w-full h-32 object-cover rounded-lg mb-4"
                 />
                 <CardDescription>
-                  Cross-platform mobile apps with React Native and Flutter for
-                  iOS and Android.
+                  Intelligent AI agents and automation solutions to streamline
+                  your business processes.
                 </CardDescription>
               </CardContent>
             </Card>
