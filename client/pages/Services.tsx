@@ -10,13 +10,11 @@ import { Badge } from "@/components/ui/badge";
 import {
   Code,
   Globe,
-  Smartphone,
   Database,
   Zap,
   Users,
   Settings,
   Shield,
-  CloudIcon,
   Paintbrush,
   BarChart,
   Headphones,
