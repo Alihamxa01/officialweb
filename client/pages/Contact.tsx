@@ -52,7 +52,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email Address",
-      details: ["hello@reecoder.com", "support@reecoder.com"],
+      details: ["hellohamzaa.01@gmail.com"],
     },
     {
       icon: Clock,
