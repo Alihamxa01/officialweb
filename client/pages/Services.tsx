@@ -67,8 +67,6 @@ export default function Services() {
       ],
     },
 
- 
-
     {
       icon: Paintbrush,
       title: "AI AGENTS",
@@ -411,6 +409,71 @@ export default function Services() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Pricing Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+              Project Pricing
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
+              Every project is unique, and so is our pricing approach.
+            </p>
+          </div>
+
+          <Card className="border-0 bg-background/50 backdrop-blur-sm">
+            <CardContent className="p-12 text-center">
+              <div className="w-20 h-20 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-6">
+                <CheckCircle className="h-10 w-10 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold mb-4">
+                Tailored Pricing for Every Project
+              </h3>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-2xl mx-auto">
+                Our project pricing depends on the specific requirements,
+                complexity, and scope of your project. We believe in
+                transparent, fair pricing that reflects the value we deliver.
+                Each project is carefully evaluated to provide you with a custom
+                quote that fits your budget and expectations.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div className="text-center p-4">
+                  <h4 className="font-semibold mb-2 text-primary">
+                    Project Scope
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    Complexity and features required
+                  </p>
+                </div>
+                <div className="text-center p-4">
+                  <h4 className="font-semibold mb-2 text-primary">Timeline</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Delivery schedule and urgency
+                  </p>
+                </div>
+                <div className="text-center p-4">
+                  <h4 className="font-semibold mb-2 text-primary">
+                    Technology Stack
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    Tools and technologies used
+                  </p>
+                </div>
+              </div>
+              <Link to="/contact">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70"
+                >
+                  Get Your Custom Quote
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
