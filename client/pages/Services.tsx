@@ -67,17 +67,7 @@ export default function Services() {
       ],
     },
 
- {
-      icon: Robot,
-      title: "Backend & API Development",
-      description:
-        "Robust backend systems and APIs that power your applications with reliability and performance.",
-      features: [
-        " API Development",
-        "MangoDB and others",
-        "Database Architecture",
-      ],
-    },
+ 
 
     {
       icon: Paintbrush,
