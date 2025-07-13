@@ -321,7 +321,7 @@ export default function About() {
                   {/* Skills Section */}
                   <div className="space-y-3">
                     <h4 className="font-bold text-foreground text-sm uppercase tracking-wide flex items-center">
-                      <span className="w-2 h-2 bg-accent rounded-full mr-2"></span>
+                      <span className="w-2 h-2 bg-blue rounded-full mr-2"></span>
                       Skills
                     </h4>
                     <div className="flex flex-wrap gap-2">
