@@ -57,20 +57,18 @@ export default function About() {
         "Front-end Developer",
         "System Architecture",
         "Team Leadership",
-        " Marketing Manager", 
+        " Marketing Manager",
       ],
-      skills: [
-        "Next.js",
-        "Tailwind CSS",
-        "Node.js",
-        "Figma",
-        "Python",
-      ],
+      skills: ["Next.js", "Tailwind CSS", "Node.js", "Figma", "Python"],
     },
     {
       name: "Najaf Ali",
       role: "CEO &  AI Agent Developer:",
-      specialties: ["AI developer", "Python expert", "OpenAI Agent SDK Developer"],
+      specialties: [
+        "AI developer",
+        "Python expert",
+        "OpenAI Agent SDK Developer",
+      ],
       skills: [
         "Python Specialist",
         "Javascript",
@@ -209,12 +207,19 @@ export default function About() {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                reeCoder was born from a simple idea: to make intelligent, scalable technology accessible to everyone. What started as a small team of passionate developers has grown into a full-stack AI-driven service provider helping businesses automate, innovate, and grow. With a focus on simplicity, performance, and real impact—we’re redefining what smart web solutions can be
+                reeCoder was born from a simple idea: to make intelligent,
+                scalable technology accessible to everyone. What started as a
+                small team of passionate developers has grown into a full-stack
+                AI-driven service provider helping businesses automate,
+                innovate, and grow. With a focus on simplicity, performance, and
+                real impact—we’re redefining what smart web solutions can be
               </p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                reeCoder was founded by Ali Hamza, with his best friend Najaf Asli joining as the lead developer. Together, they combine vision and code to build powerful AI-driven solutions for the modern web.
+                reeCoder was founded by Ali Hamza, with his best friend Najaf
+                Asli joining as the lead developer. Together, they combine
+                vision and code to build powerful AI-driven solutions for the
+                modern web.
               </p>
-              
             </div>
             <div className="relative">
               <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl p-8 backdrop-blur-sm">
@@ -276,37 +281,60 @@ export default function About() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {team.map((member, index) => (
               <Card
                 key={index}
-                className="hover:shadow-lg transition-all duration-300"
+                className="hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-background via-background to-muted/30 overflow-hidden group"
               >
-                <CardHeader className="text-center">
-                  <div className="w-24 h-24 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <Users className="h-12 w-12 text-primary" />
+                <CardHeader className="text-center pb-4">
+                  <div className="w-28 h-28 bg-gradient-to-br from-primary to-accent rounded-full mx-auto mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <Users className="h-14 w-14 text-white" />
                   </div>
-                  <CardTitle className="text-lg">{member.name}</CardTitle>
-                  <CardDescription className="text-primary font-medium">
+                  <CardTitle className="text-2xl font-bold bg-gradient-to-r from-foreground to-foreground/80 bg-clip-text text-transparent mb-2">
+                    {member.name}
+                  </CardTitle>
+                  <CardDescription className="text-primary font-semibold text-lg">
                     {member.role}
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <Badge
-                    variant="secondary"
-                    className="mb-3 w-full justify-center"
-                  >
-                    {member.experience}
-                  </Badge>
-                  <div className="space-y-1">
-                    {member.specialties.map((specialty, idx) => (
-                      <div
-                        key={idx}
-                        className="text-sm text-muted-foreground text-center"
-                      >
-                        {specialty}
-                      </div>
-                    ))}
+                <CardContent className="space-y-6">
+                  {/* Specialties Section */}
+                  <div className="space-y-3">
+                    <h4 className="font-bold text-foreground text-sm uppercase tracking-wide flex items-center">
+                      <span className="w-2 h-2 bg-primary rounded-full mr-2"></span>
+                      Specialties
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {member.specialties.map((specialty, idx) => (
+                        <Badge
+                          key={idx}
+                          variant="secondary"
+                          className="text-xs font-medium bg-primary/10 text-primary border border-primary/20 hover:bg-primary hover:text-primary-foreground transition-colors"
+                        >
+                          {specialty}
+                        </Badge>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Skills Section */}
+                  <div className="space-y-3">
+                    <h4 className="font-bold text-foreground text-sm uppercase tracking-wide flex items-center">
+                      <span className="w-2 h-2 bg-accent rounded-full mr-2"></span>
+                      Skills
+                    </h4>
+                    <div className="flex flex-wrap gap-2">
+                      {member.skills.map((skill, idx) => (
+                        <Badge
+                          key={idx}
+                          variant="outline"
+                          className="text-xs font-medium bg-accent/10 text-accent border border-accent/30 hover:bg-accent hover:text-accent-foreground transition-colors"
+                        >
+                          {skill}
+                        </Badge>
+                      ))}
+                    </div>
                   </div>
                 </CardContent>
               </Card>
