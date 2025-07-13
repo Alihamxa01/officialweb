@@ -39,19 +39,19 @@ export default function Services() {
         "Enterprise Applications",
         "Legacy System Modernization",
         "API Integration",
-        "Scalable Architecture",
+        "AI Powerd Software",
       ],
     },
     {
       icon: Globe,
       title: "Web Development",
       description:
-        "Modern, responsive web applications built with the latest technologies and best practices.",
+        "Modern fullstack, responsive web applications built with the latest technologies and best practices.",
       features: [
         "Responsive Design",
         "Progressive Web Apps",
-        "E-commerce Solutions",
-        "CMS Development",
+        "Ai-Powered Solutions",
+        "Database",
       ],
     },
 
@@ -61,10 +61,9 @@ export default function Services() {
       description:
         "Robust backend systems and APIs that power your applications with reliability and performance.",
       features: [
-        "RESTful API Design",
-        "GraphQL Implementation",
+        " API Development",
+        "MangoDB and others",
         "Database Architecture",
-        "Microservices",
       ],
     },
 
