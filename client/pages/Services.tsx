@@ -43,7 +43,6 @@ export default function Services() {
         "API Integration",
         "Scalable Architecture",
       ],
-      technologies: ["Node.js", "React", "Python", "Java"],
     },
     {
       icon: Globe,
@@ -56,7 +55,6 @@ export default function Services() {
         "E-commerce Solutions",
         "CMS Development",
       ],
-      technologies: ["React", "Next.js", "Vue.js", "Angular"],
     },
     {
       icon: Smartphone,
@@ -69,7 +67,6 @@ export default function Services() {
         "App Store Optimization",
         "Mobile UI/UX Design",
       ],
-      technologies: ["React Native", "Flutter", "Swift", "Kotlin"],
     },
     {
       icon: Database,
@@ -82,7 +79,6 @@ export default function Services() {
         "Database Architecture",
         "Microservices",
       ],
-      technologies: ["Node.js", "Express", "GraphQL", "MongoDB"],
     },
     {
       icon: CloudIcon,
@@ -95,7 +91,6 @@ export default function Services() {
         "CI/CD Pipelines",
         "Auto-scaling",
       ],
-      technologies: ["AWS", "Docker", "Kubernetes", "Terraform"],
     },
     {
       icon: Paintbrush,
@@ -108,7 +103,6 @@ export default function Services() {
         "Design Systems",
         "Usability Testing",
       ],
-      technologies: ["Figma", "Adobe XD", "Sketch", "InVision"],
     },
   ];
 
