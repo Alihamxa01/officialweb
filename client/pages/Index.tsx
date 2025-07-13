@@ -53,13 +53,6 @@ export default function Index() {
     },
   ];
 
-  const stats = [
-    { value: "50+", label: "Projects Completed" },
-    { value: "25+", label: "Expert Developers" },
-    { value: "99%", label: "Client Satisfaction" },
-    { value: "24/7", label: "Support Available" },
-  ];
-
   const technologies = [
     "React",
     "Next.js",
@@ -272,20 +265,6 @@ export default function Index() {
                 <Play className="mr-2 h-5 w-5" />
                 Watch Our Story
               </Button>
-            </div>
-
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-              {stats.map((stat, index) => (
-                <div key={index} className="text-center">
-                  <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
-                    {stat.value}
-                  </div>
-                  <div className="text-sm md:text-base text-muted-foreground">
-                    {stat.label}
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </div>
