@@ -67,6 +67,18 @@ export default function Services() {
       ],
     },
 
+ {
+      icon: Robot,
+      title: "Backend & API Development",
+      description:
+        "Robust backend systems and APIs that power your applications with reliability and performance.",
+      features: [
+        " API Development",
+        "MangoDB and others",
+        "Database Architecture",
+      ],
+    },
+
     {
       icon: Paintbrush,
       title: "AI AGENTS",
@@ -75,7 +87,7 @@ export default function Services() {
       features: [
         "Natural Language Processing",
         "Automated Task Handling",
-        "OpenAI-Powered Intelligence",
+        "Text+Image+Voice Support",
         "OpenAI Agents SDK",
       ],
     },
