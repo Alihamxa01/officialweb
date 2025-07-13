@@ -53,19 +53,31 @@ export default function About() {
     {
       name: "Ali Hamza",
       role: "Founder &  Chief Operator",
-      experience: "7+ years",
       specialties: [
         "Front-end Developer",
         "System Architecture",
         "Team Leadership",
         " Marketing Manager", 
       ],
+      skills: [
+        "Next.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Figma",
+        "Python",
+      ],
     },
     {
       name: "Najaf Ali",
       role: "CEO &  AI Agent Developer:",
-      experience: "10+ years",
       specialties: ["AI developer", "Python expert", "OpenAI Agent SDK Developer"],
+      skills: [
+        "Python Specialist",
+        "Javascript",
+        "Next.js",
+        "Figma",
+        "AI Expert",
+      ],
     },
   ];
 
