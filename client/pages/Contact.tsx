@@ -48,11 +48,7 @@ export default function Contact() {
   };
 
   const contactInfo = [
-    {
-      icon: Phone,
-      title: "Phone Number",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
-    },
+   
     {
       icon: Mail,
       title: "Email Address",
