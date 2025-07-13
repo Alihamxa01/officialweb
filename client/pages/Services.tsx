@@ -56,18 +56,7 @@ export default function Services() {
         "CMS Development",
       ],
     },
-    {
-      icon: Smartphone,
-      title: "Mobile App Development",
-      description:
-        "Native and cross-platform mobile applications for iOS and Android platforms.",
-      features: [
-        "Native iOS & Android",
-        "Cross-Platform Development",
-        "App Store Optimization",
-        "Mobile UI/UX Design",
-      ],
-    },
+
     {
       icon: Database,
       title: "Backend & API Development",
