@@ -69,14 +69,14 @@ export default function Services() {
 
     {
       icon: Paintbrush,
-      title: "UI/UX Design",
+      title: "AI AGENTS",
       description:
-        "Beautiful, intuitive user interfaces and experiences that delight your users.",
+        "Automate tasks and enhance user experiences with our smart AI Agent, seamlessly integrated into your web services for maximum efficiency..",
       features: [
-        "User Research",
-        "Wireframing & Prototyping",
-        "Design Systems",
-        "Usability Testing",
+        "Natural Language Processing",
+        "Automated Task Handling",
+        "OpenAI-Powered Intelligence",
+        "OpenAI Agents SDK",
       ],
     },
   ];
