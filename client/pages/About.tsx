@@ -66,31 +66,6 @@ export default function About() {
       experience: "10+ years",
       specialties: ["React/Next.js", "UI/UX Design", "Mobile Development"],
     },
-    {
-      name: "Mike Chen",
-      role: "Backend Architect",
-      experience: "8+ years",
-      specialties: ["Node.js", "Database Design", "Cloud Infrastructure"],
-    },
-    {
-      name: "Emily Davis",
-      role: "Project Manager",
-      experience: "6+ years",
-      specialties: [
-        "Agile Methodology",
-        "Client Relations",
-        "Quality Assurance",
-      ],
-    },
-  ];
-
-  const achievements = [
-    "50+ Successful Projects Delivered",
-    "99% Client Satisfaction Rate",
-    "24/7 Support & Maintenance",
-    "ISO 9001 Quality Certified",
-    "Agile & DevOps Best Practices",
-    "Enterprise-Grade Security",
   ];
 
   return (
@@ -346,35 +321,6 @@ export default function About() {
                   </div>
                 </CardContent>
               </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Achievements */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Our Achievements
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Milestones that reflect our commitment to excellence and client
-              success.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {achievements.map((achievement, index) => (
-              <div
-                key={index}
-                className="flex items-center space-x-3 p-4 rounded-lg bg-muted/50"
-              >
-                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0" />
-                <span className="text-foreground font-medium">
-                  {achievement}
-                </span>
-              </div>
             ))}
           </div>
         </div>
